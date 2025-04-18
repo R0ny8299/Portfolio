@@ -1,0 +1,20 @@
+<section id="experience" class="py-5 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-5 title">Work Experience</h3>
+      <div class="timeline position-relative">
+  
+        <div *ngFor="let exp of workexp" class="timeline-item mb-5 position-relative ps-4 border-start">
+          <div class="icon bg-primary text-white position-absolute top-0 start-0 translate-middle rounded-circle">
+            <i class="bi bi-briefcase-fill p-2"></i>
+          </div>
+          <h5 class="fw-bold">{{ exp.role }} <span class="text-muted">- {{ exp.company }}</span></h5>
+          <p class="mb-1 text-muted">{{ exp.timeline }}, {{ exp.location }}</p>
+          <ul class="mb-0">
+            <li *ngFor="let w of exp.work.split('|')">{{ w }}</li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  

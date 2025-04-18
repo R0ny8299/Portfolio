@@ -1,0 +1,50 @@
+<section class="py-5" id="contact" style="background: url('assets/images/contact.jpg') no-repeat center; background-size: cover;">
+    <div class="container">
+      <div class="card shadow-lg border-0" data-aos="zoom-in">
+        <div class="card-body">
+          <h3 class="text-center mb-4">Contact Me</h3>
+          <div class="row">
+            <!-- Form Section -->
+            <div class="col-md-6">
+              <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                <p class="mb-3"><strong>Feel free to contact me</strong></p>
+  
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" formControlName="name" class="form-control" [ngClass]="{ 'is-invalid': contactForm.get('name')?.touched && contactForm.get('name')?.invalid }" />
+                </div>
+  
+                <div class="mb-3">
+                  <label class="form-label">Subject</label>
+                  <input type="text" formControlName="subject" class="form-control" [ngClass]="{ 'is-invalid': contactForm.get('subject')?.touched && contactForm.get('subject')?.invalid }" />
+                </div>
+  
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': contactForm.get('email')?.touched && contactForm.get('email')?.invalid }" />
+                </div>
+  
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea rows="4" formControlName="message" class="form-control" [ngClass]="{ 'is-invalid': contactForm.get('message')?.touched && contactForm.get('message')?.invalid }"></textarea>
+                </div>
+  
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+              </form>
+            </div>
+  
+            <!-- Info Section -->
+            <div class="col-md-6">
+              <div class="ps-md-4 pt-4 pt-md-0">
+                <p><strong>Phone:</strong><br /> +91 8299176186</p>
+                <p><strong>Email:</strong><br /> {{ email }}</p>
+                <p><strong>Address:</strong><br /> Flat No - 806, Shiv Darshan Society, Bhandup, Mumbai, 400078</p>
+                <p><strong>Language:</strong><br /> Hindi, English</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
