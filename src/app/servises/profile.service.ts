@@ -69,11 +69,7 @@ export class ProfileService {
       tech: '.Net Core , Angular 18, Postgresql , Type Script'
     },
   ]
-  about2 = `Software Developer with 5+ years of experience in designing and developing scalable, secure web
-and enterprise applications using .NET Core, Angular, and MVC. Proven expertise in API creation,
-CI/CD pipeline configuration, and database management. Skilled in leading Agile teams to deliver
-high-quality solutions within deadlines.`
-
+  
   about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
   resumeurl = "https://docs.google.com/document/d/1WODFuhIzQw2AXPsjt6f3rs-EDWhdhT8s89fOTrGRh70/edit?usp=sharing"
 
