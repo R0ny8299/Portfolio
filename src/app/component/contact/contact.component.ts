@@ -18,7 +18,7 @@ export class ContactComponent {
     message: ['', Validators.required]
   });
 
-  email = 'rony.rohitsingh@email.com';
+  email = 'rony.rohitsingh@gmail.com';
 
   onSubmit(): void {
     if (this.contactForm.valid) {
