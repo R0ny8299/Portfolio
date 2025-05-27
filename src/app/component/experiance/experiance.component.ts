@@ -14,9 +14,9 @@ export class ExperianceComponent implements OnInit {
   workexp: any[] = [
     {
       id: 1,
-      company: 'ICICI Lombard Pvt Ltd',
+      company: 'ICICI Lombard Pvt Ltd (via Pinnacle Technologies until Apr 2024) ',
       location: 'Mumbai',
-      timeline: 'April 2024 to Present',
+      timeline: 'July 2022 to Present',
       role: 'Software Developer',
       work: `Technologies : Angular 14+, .net Core, MySQL, PostgreSQL, AWS. 
       ICICI Lombard General Insurance specializes in health, motor, home, travel, and business insurance leveraging technology for efficient service delivery.
@@ -26,20 +26,6 @@ export class ExperianceComponent implements OnInit {
       | Introduced real-time tracking and maintenance scheduling, boosting operational efficiency by 20%.
       | Configured CI/CD pipelines and automated deployment processes, reducing release time by 30%.
       | Developed and optimized APIs, improving data exchange efficiency and integrating third-party services seamlessly.`
-    },
-    {
-      id: 2,
-      company: 'Pinnacle Technologies Pvt Ltd',
-      location: 'Mumbai',
-      timeline: 'July 2022 to April 2024',
-      role: 'Software Developer',
-      work: `Technologies : Angular 10+, .net Core, MySQL, AWS.
-      Worked on the web application built in Angular for different business and Campaigns.
-      | Contributed on developing, designed and developed a secure payment module for processing transactions.
-      | Integrated APIs to support multiple payment gateways, reducing payment failure rates by 10%.
-      | Developed back-end services using microservices architecture, ensuring secure transactions and optimized logging processes.
-      | Built intuitive user interfaces with Angular 16, enhancing payment processing efficiency by 30%.
-      | Automated build and deployment processes using AWS and GitLab CI/CD, reducing release cycles by 25%.`
     },
     {
       id: 3,
