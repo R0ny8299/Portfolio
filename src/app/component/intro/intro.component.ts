@@ -17,7 +17,7 @@ export class IntroComponent implements OnInit {
   }
  
     downloadPdf(): void {
-      const pdfUrl = 'assets/ROHIT-SINGH-2025 NEW.pdf';
+      const pdfUrl = 'assets/ROHIT-SINGH-2025.pdf';
     
       fetch(pdfUrl)
         .then(response => response.blob())

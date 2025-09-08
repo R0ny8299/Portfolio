@@ -18,7 +18,7 @@ export class ExperianceComponent implements OnInit {
       location: 'Mumbai',
       timeline: 'July 2022 to Present',
       role: 'Software Developer',
-      work: `Technologies : Angular 14+, .net Core, MySQL, PostgreSQL, AWS. 
+      work: `Technologies : .Net Core , Golang, Angular 14+, MySQL, PostgreSQL, AWS. 
       ICICI Lombard General Insurance specializes in health, motor, home, travel, and business insurance leveraging technology for efficient service delivery.
       | Designed, developed and deployed FMS application (Fleet Management System), which completely handles the business of fleet insurance in bulk. Ensuring seamless front-end and back-end integration.
       | Implemented database architecture, designed tables, and optimized queries for high performance, which in turn reduced load on database by 15%.
@@ -47,7 +47,7 @@ export class ExperianceComponent implements OnInit {
       location: 'Mumbai',
       timeline: 'February 2021 - September 2022',
       role: 'Software Developer',
-      work: `Technologies : .NET, MVC, KendoJS, SQL.
+      work: `Technologies : .NET, MVC, Entity Framwork, KendoJS, SQL.
       Preventive Life Care is a leading genetics laboratory offering screening and predictive testing services.
       | Developed core functionalities for UTICA and PLIMS applications, enabling real-time sample tracking and automated report generation.
       | Designed robust database schemas to securely store and manage client and test data, ensuring 100% data integrity.
@@ -60,7 +60,7 @@ export class ExperianceComponent implements OnInit {
       location: 'Delhi',
       timeline: 'August 2019 - November 2021',
       role: 'Software Engineer Trainee',
-      work: `Technologies : .NET, MVC, SQL.
+      work: `Technologies : .NET, MVC, Entity Framwork, SQL.
       Zior Info Tech develops software solutions for healthcare, insurance, and associations.
       | Delivered reliable, scalable, and customized software solutions tailored to healthcare and insurance client requirements.
       | Engineered and deployed bespoke applications, improving client operational efficiency by 15%.

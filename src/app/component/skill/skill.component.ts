@@ -15,6 +15,10 @@ export class SkillComponent implements OnInit {
     this.skills = [
       { skill: '.NET CORE', progress: '88%' },
       { skill: 'MVC', progress: '85%' },
+      { skill: 'Golang', progress: '85%' },
+      { skill: 'Beego', progress: '80%' },
+      { skill: 'Gin', progress: '77%' },
+      { skill: 'Concurrency', progress: '85%' },
       { skill: 'Angular', progress: '90%' },
       { skill: 'TypeScript', progress: '88%' },
       { skill: 'JavaScript', progress: '80%' },
@@ -25,8 +29,6 @@ export class SkillComponent implements OnInit {
       { skill: 'PostgreSQL', progress: '70%' },
       { skill: 'Oracle SQL', progress: '70%' },
       { skill: 'AWS', progress: '70%' },
-
-
     ];
   }
 }
