@@ -13,8 +13,10 @@ export class SkillComponent implements OnInit {
 
   ngOnInit(): void {
     this.skills = [
+      { skill: 'C#', progress: '90%' },
       { skill: '.NET CORE', progress: '88%' },
-      { skill: 'MVC', progress: '85%' },
+      { skill: 'MVC Core', progress: '85%' },
+      { skill: 'Kafka', progress: '80%' },
       { skill: 'Golang', progress: '85%' },
       { skill: 'Beego', progress: '80%' },
       { skill: 'Gin', progress: '77%' },

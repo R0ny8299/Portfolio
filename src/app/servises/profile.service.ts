@@ -21,7 +21,7 @@ export class ProfileService {
       desc: 'In the context of ICICI Lombard, "NYSA-Motor" appears to refer to a digital platform or project focused on vehicle insurance. Its described as a tool for suggesting cross-selling and up-selling opportunities, incorporating multiple payment options, multilingual communication, and reducing policy issuance time, according to a document from ICICI Lombard. The platform also leverages technologies like GPS, IoT, and AI for risk management and monitoring.',
       mediumlink: 'nysa.icicilombard.com/#/login',
       imgUrl: 'assets/images/z2.jpg',
-      tech: '.Net Core , Golang, Angular 18, sql Server , PostgreSQL, Type Script'
+      tech: '.Net Core , Golang, Kafka, Angular 18, sql Server , PostgreSQL, Type Script'
     },
     {
       id: 2,
