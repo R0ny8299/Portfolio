@@ -45,7 +45,7 @@ export class ExperianceComponent implements OnInit {
       id: 4,
       company: 'Preventine Life Care Pvt Ltd',
       location: 'Mumbai',
-      timeline: 'February 2021 - September 2022',
+      timeline: 'February 2021 - September 2021',
       role: 'Software Developer',
       work: `Technologies : .NET, MVC, Entity Framwork, KendoJS, SQL.
       Preventive Life Care is a leading genetics laboratory offering screening and predictive testing services.
@@ -58,7 +58,7 @@ export class ExperianceComponent implements OnInit {
       id: 5,
       company: 'Zior Info Tech Pvt Ltd',
       location: 'Delhi',
-      timeline: 'August 2019 - November 2021',
+      timeline: 'August 2019 - November 2020',
       role: 'Software Engineer Trainee',
       work: `Technologies : .NET, MVC, Entity Framwork, SQL.
       Zior Info Tech develops software solutions for healthcare, insurance, and associations.
